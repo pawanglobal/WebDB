@@ -7,14 +7,45 @@ body {
   min-height: 95vh;
 }
 
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 .creative {
   color: midnightblue;
 }
 
 @media (max-width: 680px) {
   .logo {
-    width: 100px;}
-
+    width: 100px;
+  }
 
   h1 {
     font-size: 3.5rem;
@@ -24,41 +55,14 @@ body {
   .card {
     width: 100%;
     display: block;
-    margin-bottom:30px;
-    text-align: justify;
-  }
-
-  .card img{
-    width: 100px;
-    display: block;
     margin-bottom: 30px;
     text-align: justify;
   }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
 }
-
-  .main {
-    flex: 1;
-}
-
-
-
-h1 {
-  font-size: 5rem;
-}
-
-.left {
-  display: block;
-}
-
-.left .title-image {
-  float: left;
-}
-.right {
-  display: block;
-}
-
-footer {
-  text-align: right;
-  color: midnightblue;
-}
-
